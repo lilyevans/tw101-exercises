@@ -12,5 +12,13 @@ public class Library {
     }
 
     public void printBooksContaining(String partialBookTitle) {
+        int i;
+
+        for (i = 0; i < books.length; i++){
+            if (books[i].contains(partialBookTitle)){
+                System.out.println(books[i]);
+            }
+        }
+
     }
 }

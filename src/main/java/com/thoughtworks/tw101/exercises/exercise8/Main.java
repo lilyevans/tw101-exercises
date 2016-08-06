@@ -25,6 +25,7 @@ public class Main {
                 guessCheck = game.checkGuess(guess);
             }
             System.out.println("Great job! The correct number was: " + guess);
+            System.out.println("Your guesses: " + player1.getGuessList());
 
     }
 }
